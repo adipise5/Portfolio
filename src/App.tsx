@@ -332,10 +332,10 @@ function App() {
               >
                 <h3 className="text-xl font-semibold mb-2">Transitioning from Traditional to Integrated Crop Management: Advancing Cotton Production Practices</h3>
                 <p className="text-gray-600 mb-4">
-                  Authors: Aditya Ashok Pise, et al.
+                  Authors: Aditya Ashok Pise, Vipin Jain, Adelin Parinita, Ashok Sampat Pise.
                 </p>
                 <p className="text-gray-500 mb-4">
-                  Published in International Journal of Agricultural Sciences (2024)
+                  Published in International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI-2025)
                 </p>
                 <a 
                   href="https://doi.org/10.xxxx/agriculture.2024.xxxxx" 
@@ -352,37 +352,15 @@ function App() {
                 whileHover={{ x: 10 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <h3 className="text-xl font-semibold mb-2">Comparative Analysis of Document Clustering Techniques for Multilingual Text Corpora</h3>
+                <h3 className="text-xl font-semibold mb-2">Development of a Market Disruption Index (MDI) for AI in Healthcare</h3>
                 <p className="text-gray-600 mb-4">
                   Authors: Aditya Ashok Pise, et al.
                 </p>
                 <p className="text-gray-500 mb-4">
-                  Published in Journal of Natural Language Processing (2023)
+                  Working
                 </p>
                 <a 
                   href="https://doi.org/10.xxxx/nlp.2023.xxxxx" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
-                >
-                  View Publication →
-                </a>
-              </motion.div>
-
-              <motion.div
-                className="bg-white p-6 rounded-lg shadow-md"
-                whileHover={{ x: 10 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <h3 className="text-xl font-semibold mb-2">Deep Learning Approaches for Medical Image Analysis: A Case Study in Brain Tumor Detection</h3>
-                <p className="text-gray-600 mb-4">
-                  Authors: Aditya Ashok Pise, et al.
-                </p>
-                <p className="text-gray-500 mb-4">
-                  Published in IEEE Transactions on Medical Imaging (2023)
-                </p>
-                <a 
-                  href="https://doi.org/10.xxxx/tmi.2023.xxxxx" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
