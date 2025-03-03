@@ -18,6 +18,8 @@ function App() {
           className="py-20 bg-white"
           id="about"
         >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ x: -50 }}
             whileInView={{ x: 0 }}
@@ -86,6 +88,8 @@ function App() {
               </div>
             </div>
           </motion.div>
+              </div>
+            </div>
         </motion.section>
         
         {/* Research Interests Section */}
