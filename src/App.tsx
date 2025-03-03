@@ -21,17 +21,6 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <motion.div
-                initial={{ x: -50 }}
-                whileInView={{ x: 0 }}
-                transition={{ duration: 0.8 }}
-              >
-                <img
-                  src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2070"
-                  alt="Research Work"
-                  className="rounded-lg shadow-lg"
-                />
-              </motion.div>
-              <motion.div
                 initial={{ x: 50 }}
                 whileInView={{ x: 0 }}
                 transition={{ duration: 0.8 }}
