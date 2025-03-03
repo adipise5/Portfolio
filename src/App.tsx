@@ -19,7 +19,7 @@ function App() {
           id="about"
         >
           <motion.div
-            initial={{ x: 50 }}
+            initial={{ x: -50 }}
             whileInView={{ x: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto px-6"
@@ -50,7 +50,12 @@ function App() {
                 </div>
               </div>
             </div>
-
+            </motion.div>
+            <motion.div
+                initial={{ x: 50 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 0.8 }}
+              >  
             {/* Technical Skills Section */}
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
