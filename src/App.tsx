@@ -78,12 +78,9 @@ function App() {
               <h3 className="text-xl font-semibold mb-4">Experience</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Integrated Crop Management System</p>
-                  <p className="text-gray-600">Developed a web application for crop management using AI & ML models.</p>
-                </div>
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">StockGPT - Website for Stock Market Predictions</p>
-                  <p className="text-gray-600">Built stock prediction models using ARIMA, LSTM, and Linear Regression.</p>
+                  <p className="font-semibold text-gray-900">Machine Learning Developer</p>
+                  <p className="text-gray-600">SmartBridge Educational Services Pvt. Ltd.</p>
+                  <p className="text-gray-500">Aug 2023- Nov 2023</p>
                 </div>
               </div>
             </div>
