@@ -28,10 +28,10 @@ const Hero = () => {
           transition={{ delay: 0.4, stagger: 0.2 }}
         >
           {[
-            { icon: BookOpen, label: 'Research Papers', count: '10+' },
-            { icon: Award, label: 'Patents', count: '5+' },
-            { icon: FileText, label: 'Articles', count: '15+' },
-            { icon: Laptop, label: 'Projects', count: '20+' },
+            { icon: BookOpen, label: 'Research Papers', count: '1' },
+            { icon: Award, label: 'Patents', count: '2' },
+            { icon: FileText, label: 'Articles', count: '2' },
+            { icon: Laptop, label: 'Projects', count: '5+' },
           ].map((item, index) => (
             <motion.div
               key={index}
