@@ -16,7 +16,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <GraduationCap className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">Research Portfolio</span>
+            <span className="ml-2 text-xl font-bold text-gray-900">Aditya Pise</span>
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-8">
