@@ -69,8 +69,6 @@ function App() {
                     I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
                   </p>
                   <div className="mt-8">
-                  </p>
-                  <div className="mt-8">
                     <h3 className="text-xl font-semibold mb-4">Education</h3>
                     <div className="space-y-4">
                       <div className="border-l-4 border-indigo-600 pl-4">
