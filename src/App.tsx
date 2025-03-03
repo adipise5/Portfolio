@@ -25,40 +25,11 @@ function App() {
                 whileInView={{ x: 0 }}
                 transition={{ duration: 0.8 }}
               >
-                 <div className="mt-8">
-                    <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
-                    <div className="grid grid-cols-2 gap-4">
-                      <div>
-                        <h4 className="font-medium text-gray-900">Programming Languages</h4>
-                        <p className="text-gray-600">Python, C, C++, Java, R, HTML, CSS, JavaScript</p>
-                      </div>
-                      <div>
-                        <h4 className="font-medium text-gray-900">Frameworks & Tools</h4>
-                        <p className="text-gray-600">Flask, Jupyter, MySQL, MongoDB, Azure, Git, GitHub</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <div className="mt-8">
-                    <h3 className="text-xl font-semibold mb-4">Education</h3>
-                    <div className="space-y-4">
-                      <div className="border-l-4 border-indigo-600 pl-4">
-                        <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
-                        <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
-                        <p className="text-gray-500">CGPA: 8.76 | Expected July 2025</p>
-                      </div>
-                      <div className="border-l-4 border-indigo-600 pl-4">
-                        <p className="font-semibold text-gray-900">Samarth jr. College Karjat</p>
-                        <p className="text-gray-600">Higher Secondary Certificate (Class XII)</p>
-                        <p className="text-gray-500">Percentage: 94.50% | May 2021</p>
-                      </div>
-                      <div className="border-l-4 border-indigo-600 pl-4">
-                        <p className="font-semibold text-gray-900">Mahatma Gandhi Vidyalaya Karjat</p>
-                        <p className="text-gray-600">Secondary School Certificate (Class X)</p>
-                        <p className="text-gray-500">Percentage: 90.60% | May 2019</p>
-                      </div>
-                    </div>
-                  </div>
+                <img
+                  src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2070"
+                  alt="Research Work"
+                  className="rounded-lg shadow-lg"
+                />
               </motion.div>
               <motion.div
                 initial={{ x: 50 }}
@@ -68,7 +39,10 @@ function App() {
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
                 <div className="space-y-4">
                   <p className="text-gray-600">
-                    I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
+                    I am Aditya Ashok Pise, a passionate Computer Science and Engineering student at Vellore Institute of Technology Bhopal, with a strong academic record of 8.76 CGPA. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving.
+                  </p>
+                  <p className="text-gray-600">
+                    As a Machine Learning Developer at SmartBridge Educational Services, I've gained hands-on experience in implementing CNNs for brain tumor detection and working with advanced deep learning techniques. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
                   </p>
                   <div className="mt-8">
                     <h3 className="text-xl font-semibold mb-4">Education</h3>
@@ -76,7 +50,7 @@ function App() {
                       <div className="border-l-4 border-indigo-600 pl-4">
                         <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
                         <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
-                        <p className="text-gray-500">CGPA: 8.76 | Expected July 2025</p>
+                        <p className="text-gray-500">CGPA: 8.76 | Expected June 2025</p>
                       </div>
                       <div className="border-l-4 border-indigo-600 pl-4">
                         <p className="font-semibold text-gray-900">Samarth jr. College Karjat</p>
