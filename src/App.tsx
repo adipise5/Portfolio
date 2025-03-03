@@ -18,7 +18,12 @@ function App() {
           className="py-20 bg-white"
           id="about"
         >
-          <h2 className="text-3xl font-bold mb-6">About Me</h2>
+           <motion.div
+                initial={{ x: 50 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 0.8 }}
+              >
+              <h2 className="text-3xl font-bold mb-6">About Me</h2>
                 <div className="space-y-4">
                   <p className="text-gray-600">
                     I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
