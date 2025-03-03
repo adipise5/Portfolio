@@ -39,10 +39,7 @@ function App() {
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
                 <div className="space-y-4">
                   <p className="text-gray-600">
-                    I am Aditya Ashok Pise, a passionate Computer Science and Engineering student at Vellore Institute of Technology Bhopal, with a strong academic record of 8.76 CGPA. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving.
-                  </p>
-                  <p className="text-gray-600">
-                    As a Machine Learning Developer at SmartBridge Educational Services, I've gained hands-on experience in implementing CNNs for brain tumor detection and working with advanced deep learning techniques. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
+                    I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
                   </p>
                   <div className="mt-8">
                     <h3 className="text-xl font-semibold mb-4">Education</h3>
@@ -50,7 +47,7 @@ function App() {
                       <div className="border-l-4 border-indigo-600 pl-4">
                         <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
                         <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
-                        <p className="text-gray-500">CGPA: 8.76 | Expected June 2025</p>
+                        <p className="text-gray-500">CGPA: 8.76 | Expected July 2025</p>
                       </div>
                       <div className="border-l-4 border-indigo-600 pl-4">
                         <p className="font-semibold text-gray-900">Samarth jr. College Karjat</p>
