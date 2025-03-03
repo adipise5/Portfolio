@@ -439,7 +439,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
             <p className="text-xl text-gray-600 mb-8">
-              Interested in collaboration? Let's connect!
+              Let's connect!
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-10">
               <a 
