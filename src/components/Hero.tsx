@@ -2,6 +2,13 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Award, FileText, Laptop } from 'lucide-react';
 
+const sections = [
+  { icon: BookOpen, label: 'Research Papers', count: '2', id: 'publications' },
+  { icon: Award, label: 'Patents', count: '2', id: 'patents' },
+  { icon: FileText, label: 'Articles', count: '2', id: 'articles' },
+  { icon: Laptop, label: 'Projects', count: '5+', id: 'projects' },
+];
+
 const Hero = () => {
   return (
     <div className="min-h-screen pt-16 bg-gradient-to-br from-indigo-50 to-white">
@@ -15,10 +22,26 @@ const Hero = () => {
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
             Research & Innovation
           </h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
             Exploring the frontiers of technology through research, patents, and innovative projects.
             Pursuing MTech with a focus on advancing technological boundaries.
           </p>
+
+          {/* Navigation Links */}
+          <div className="flex justify-center mb-12">
+            <div className="flex space-x-6">
+              {sections.map((section) => (
+                <a 
+                  key={section.id} 
+                  href={`#${section.id}`} 
+                  className="flex items-center space-x-2 text-gray-700 hover:text-indigo-600 transition"
+                >
+                  <section.icon className="w-5 h-5" />
+                  <span className="font-medium">{section.label} ({section.count})</span>
+                </a>
+              ))}
+            </div>
+          </div>
         </motion.div>
 
         <motion.div 
@@ -27,14 +50,10 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, stagger: 0.2 }}
         >
-          {[
-           { icon: BookOpen, label: 'Research Papers', count: '2', id: 'publications' },
-           { icon: Award, label: 'Patents', count: '2', id: 'patents' },
-           { icon: FileText, label: 'Articles', count: '2', id: 'articles' },
-           { icon: Laptop, label: 'Projects', count: '5+', id: 'projects' },
-          ].map((item, index) => (
+          {sections.map((item, index) => (
             <motion.div
               key={index}
+              id={item.id}
               className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
