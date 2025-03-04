@@ -28,7 +28,7 @@ const Hero = () => {
           transition={{ delay: 0.4, stagger: 0.2 }}
         >
           {[
-           { icon: BookOpen, label: 'Research Papers', count: '2', id: 'research' },
+           { icon: BookOpen, label: 'Research Papers', count: '2', id: 'publications' },
            { icon: Award, label: 'Patents', count: '2', id: 'patents' },
            { icon: FileText, label: 'Articles', count: '2', id: 'articles' },
            { icon: Laptop, label: 'Projects', count: '5+', id: 'projects' },
