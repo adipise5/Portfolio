@@ -8,8 +8,7 @@ function App() {
     <AnimatePresence>
       <div className="bg-gray-50">
         <Navbar />
-        <Hero />
-
+       
         {/* About Me Section */}
         <motion.section
           initial={{ opacity: 0 }}
@@ -88,6 +87,8 @@ function App() {
               </div>
             </div>
         </motion.section>
+
+         <Hero />
         
         {/* Research Interests Section */}
         <motion.section
