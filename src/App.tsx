@@ -333,6 +333,50 @@ function App() {
                 whileHover={{ x: 10 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
+                <h3 className="text-xl font-semibold mb-2">Sivan Kailasavadivoo: A Leading Contributor to Modern India's Space Program </h3>
+                <p className="text-gray-600 mb-4">
+                  Authors: Aditya Ashok Pise.
+                </p>
+                <p className="text-gray-500 mb-4">
+                  Published in International Interdisciplinary Conference
+                </p>
+                <a 
+                  href="https://doi.org/10.xxxx/agriculture.2024.xxxxx" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
+                >
+                  View Publication →
+                </a>
+              </motion.div>
+
+              <motion.div
+                className="bg-white p-6 rounded-lg shadow-md"
+                whileHover={{ x: 10 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
+                <h3 className="text-xl font-semibold mb-2">Dr. Vijay P. Bhatkar: Architect of India's Digital and Scientific Renaissance</h3>
+                <p className="text-gray-600 mb-4">
+                  Authors: Aditya Ashok Pise.
+                </p>
+                <p className="text-gray-500 mb-4">
+                  Published in International Interdisciplinary Conference
+                </p>
+                <a 
+                  href="https://doi.org/10.xxxx/agriculture.2024.xxxxx" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
+                >
+                  View Publication →
+                </a>
+              </motion.div>
+
+              <motion.div
+                className="bg-white p-6 rounded-lg shadow-md"
+                whileHover={{ x: 10 }}
+                transition={{ type: "spring", stiffness: 300 }}
+              >
                 <h3 className="text-xl font-semibold mb-2">Development of a Market Disruption Index (MDI) for AI in Healthcare</h3>
                 <p className="text-gray-600 mb-4">
                   Authors: Aditya Ashok Pise, et al.
