@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
             Exploring the frontiers of technology through research, patents, and innovative projects.
-            Pursuing MTech with a focus on advancing technological boundaries.
+            Pursuing BTech with a focus on advancing technological boundaries.
           </p>
         </motion.div>
 
