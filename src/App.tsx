@@ -77,7 +77,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-4">Experience</h3>
               <div className="space-y-4">
                 <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Machine Learning Developer</p>
+                  <p className="font-semibold text-gray-900">Machine Learning Developer Extern</p>
                   <p className="text-gray-600">SmartBridge Educational Services Pvt. Ltd.</p>
                   <p className="text-gray-500">Aug 2023- Nov 2023</p>
                 </div>
