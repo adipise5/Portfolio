@@ -99,16 +99,20 @@ function App() {
           id="research"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center mb-12">Research Interests</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Area of Interest</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: 'Machine Learning',
+                  title: 'Artificial Intelligence and Machine Learning',
                   description: 'Deep learning, Neural Networks, and AI applications in real-world scenarios.'
                 },
                 {
                   title: 'Data Science',
                   description: 'Big data analytics, Statistical modeling, and Predictive analysis.'
+                },
+                 {
+                  title: 'Web Development',
+                  description: 'Creation, building and maintenance of websites and web applications, involving tasks like coding, designing, and ensuring functionality and user experience.'
                 },
                 {
                   title: 'Computer Vision',
@@ -125,36 +129,7 @@ function App() {
                   <p className="text-gray-600">{item.description}</p>
                 </motion.div>
               ))}
-            </div>
-
-            <h2 className="text-3xl font-bold text-center mb-12">Research Interests</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  title: 'Machine Learning',
-                  description: 'Deep learning, Neural Networks, and AI applications in real-world scenarios.'
-                },
-                {
-                  title: 'Data Science',
-                  description: 'Big data analytics, Statistical modeling, and Predictive analysis.'
-                },
-                {
-                  title: 'Computer Vision',
-                  description: 'Image processing, Object detection, and Visual recognition systems.'
-                }
-              ].map((item, index) => (
-                <motion.div
-                  key={index}
-                  className="bg-white p-6 rounded-lg shadow-md"
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <h3 className="text-xl font-semibold mb-4">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
-                </motion.div>
-              ))}
-            </div>
-            
+            </div>            
           </div>
         </motion.section>
 
