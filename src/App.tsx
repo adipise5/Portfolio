@@ -153,7 +153,7 @@ function App() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-3">Integrated Crop Management System</h3>
+                  <h3 className="text-xl font-bold mb-3">Bhoomi - Integrated Crop Management System</h3>
                   <p className="text-gray-600 mb-4">
                     A web-based platform optimizing agricultural production through machine learning models and advanced analytics. 
                     Empowers farmers with actionable insights to improve crop management efficiency and sustainability.
