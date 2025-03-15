@@ -214,7 +214,7 @@ function App() {
               >
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2022%2F09%2Fimage-classification-in-stl-10-dataset-using-resnet-50-deep-learning-model%2F&psig=AOvVaw19StKdrxMI2KAY1ViMJfE6&ust=1741184110258000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMim-LzO8IsDFQAAAAAdAAAAABAJ" 
+                    src="https://datamathstat.wordpress.com/wp-content/uploads/2020/09/44-4.png" 
                     alt="Document Clustering" 
                     className="w-full h-full object-cover"
                   />
