@@ -261,7 +261,7 @@ function App() {
               >
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1557682250-f37ae56ab851?q=80&w=2029" 
+                    src="https://unsplash.com/photos/a-computer-generated-image-of-a-human-brain-8-zt2nE-vnk" 
                     alt="Brain Tumor Detection" 
                     className="w-full h-full object-cover"
                   />
