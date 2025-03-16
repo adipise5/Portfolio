@@ -429,7 +429,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
                 >
-                  View Patent →
+                  View →
                 </a>
               </motion.div>
 
@@ -450,7 +450,7 @@ function App() {
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
                 >
-                  View Patent →
+                  View →
                 </a>
               </motion.div>
             </div>
