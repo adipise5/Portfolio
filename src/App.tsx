@@ -422,9 +422,9 @@ function App() {
                   A novel design for a wearable device that provides targeted relief for menstrual pain in the stomach and lower back regions. 
                   The device incorporates ergonomic design principles and therapeutic elements to enhance comfort and pain management.
                 </p>
-                <p className="text-gray-500 mb-4">Patent No: IN202341xxxxx</p>
+                <p className="text-gray-500 mb-4">Patent No: 387860-001</p>
                 <a 
-                  href="https://ipindia.gov.in/patents/patent-search/IN202341xxxxx" 
+                  href="https://drive.google.com/file/d/1rptgkF8HvqDR7ykVJ2Vr-QX30tsYGIHw/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
@@ -443,9 +443,9 @@ function App() {
                   An innovative design for a wearable device specifically engineered to alleviate menstrual pain in the thigh area. 
                   The device features adjustable components and therapeutic elements to provide customized relief and improve quality of life during menstruation.
                 </p>
-                <p className="text-gray-500 mb-4">Patent No: IN202342xxxxx</p>
+                <p className="text-gray-500 mb-4">Patent No: 402465-001</p>
                 <a 
-                  href="https://ipindia.gov.in/patents/patent-search/IN202342xxxxx" 
+                  href="https://drive.google.com/file/d/1lpauJ8ToqMOKLZAF77hAxH47I2t12ocX/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
