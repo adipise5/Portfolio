@@ -172,7 +172,7 @@ function App() {
                     <strong>Achievement:</strong> 13% increase in crop yield prediction accuracy
                   </p>
                   <a 
-                    href="https://github.com/adipise05/crop-management-system" 
+                    href="https://github.com/adipise5/Bhoomi---Integrated-Crop-Management-System" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
@@ -210,7 +210,7 @@ function App() {
                     <strong>Outcome:</strong> Identified optimal similarity measures for multilingual document clustering
                   </p>
                   <a 
-                    href="https://github.com/adipise05/document-clustering" 
+                    href="https://github.com/adipise5/Document-Clustering-Similarity-Measures" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
@@ -248,7 +248,7 @@ function App() {
                     <strong>Features:</strong> ARIMA, LSTM, and Linear Regression models for stock trend forecasting
                   </p>
                   <a 
-                    href="https://github.com/adipise05/stockgpt" 
+                    href="https://github.com/Adelin12parinita/StockGPT-epics" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
