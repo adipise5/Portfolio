@@ -50,7 +50,7 @@ const Navbar = () => {
           exit={{ opacity: 0, y: -20 }}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-            {['About', 'Research', 'Projects', 'Publications', 'Patents', 'Contact'].map((item) => (
+            {['About', 'Interest', 'Projects', 'Publications', 'Patents', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
