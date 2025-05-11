@@ -172,7 +172,7 @@ function App() {
                     <strong>Achievement:</strong> 13% increase in crop yield prediction accuracy
                   </p>
                   <a 
-                    href="https://github.com/adipise5/Bhoomi---Integrated-Crop-Management-System" 
+                    href="https://bhoomi-nu.vercel.app/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
