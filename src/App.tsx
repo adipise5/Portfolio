@@ -323,7 +323,7 @@ function App() {
                   Published in International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI-2025)
                 </p>
                 <a 
-                  href="https://doi.org/10.xxxx/agriculture.2024.xxxxx" 
+                  href="https://doi.org/10.1109/iatmsi64286.2025.10985451" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
