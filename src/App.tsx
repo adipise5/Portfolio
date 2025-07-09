@@ -39,7 +39,6 @@ function App() {
                   <p className="text-gray-600">M.E in Software Systems</p>
                   <p className="text-gray-500">CGPA:  | 2025-2027</p>
                 </div>
-              <div className="space-y-4">
                 <div className="border-l-4 border-indigo-600 pl-4">
                   <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
                   <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
