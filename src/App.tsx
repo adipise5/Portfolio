@@ -8,7 +8,7 @@ function App() {
     <AnimatePresence>
       <div className="bg-gray-50">
         <Navbar />
-       
+
         {/* About Me Section */}
         <motion.section
           initial={{ opacity: 0 }}
@@ -19,81 +19,81 @@ function App() {
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ x: -50 }}
-            whileInView={{ x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto px-6"
-          >
-            <h2 className="text-3xl font-bold mb-6">About Me</h2>
-            <p className="text-gray-600">
-              I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
-            </p>
+              <motion.div
+                initial={{ x: -50 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 0.8 }}
+                className="max-w-4xl mx-auto px-6"
+              >
+                <h2 className="text-3xl font-bold mb-6">About Me</h2>
+                <p className="text-gray-600">
+                  I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
+                </p>
 
-            {/* Education Section */}
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-4">Education</h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Birla Institute of Technology And Science, Pilani (BITS Pilani)</p>
-                  <p className="text-gray-600">M.E in Software Systems</p>
-                  <p className="text-gray-500">CGPA:  | 2025-2027</p>
+                {/* Education Section */}
+                <div className="mt-8">
+                  <h3 className="text-xl font-semibold mb-4">Education</h3>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-indigo-600 pl-4">
+                      <p className="font-semibold text-gray-900">Birla Institute of Technology And Science, Pilani (BITS Pilani)</p>
+                      <p className="text-gray-600">M.E in Software Systems</p>
+                      <p className="text-gray-500">CGPA:  | 2025-2027</p>
+                    </div>
+                    <div className="border-l-4 border-indigo-600 pl-4">
+                      <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
+                      <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
+                      <p className="text-gray-500">CGPA: 8.76 | Expected June 2025</p>
+                    </div>
+                    <div className="border-l-4 border-indigo-600 pl-4">
+                      <p className="font-semibold text-gray-900">Samarth Jr. College Karjat</p>
+                      <p className="text-gray-600">Higher Secondary Certificate (Class XII)</p>
+                      <p className="text-gray-500">Percentage: 94.50% | May 2021</p>
+                    </div>
+                    <div className="border-l-4 border-indigo-600 pl-4">
+                      <p className="font-semibold text-gray-900">Mahatma Gandhi Vidyalaya Karjat</p>
+                      <p className="text-gray-600">Secondary School Certificate (Class X)</p>
+                      <p className="text-gray-500">Percentage: 90.60% | May 2019</p>
+                    </div>
+                  </div>
                 </div>
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
-                  <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
-                  <p className="text-gray-500">CGPA: 8.76 | Expected June 2025</p>
-                </div>
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Samarth Jr. College Karjat</p>
-                  <p className="text-gray-600">Higher Secondary Certificate (Class XII)</p>
-                  <p className="text-gray-500">Percentage: 94.50% | May 2021</p>
-                </div>
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Mahatma Gandhi Vidyalaya Karjat</p>
-                  <p className="text-gray-600">Secondary School Certificate (Class X)</p>
-                  <p className="text-gray-500">Percentage: 90.60% | May 2019</p>
-                </div>
-              </div>
-            </div>
-            </motion.div>
-            <motion.div
+              </motion.div>
+
+              <motion.div
                 initial={{ x: 50 }}
                 whileInView={{ x: 0 }}
                 transition={{ duration: 0.8 }}
-              >  
-            {/* Technical Skills Section */}
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-medium text-gray-900">Programming Languages</h4>
-                  <p className="text-gray-600">Python, C, C++, Java, R, HTML, CSS, JavaScript</p>
+              >
+                {/* Technical Skills Section */}
+                <div className="mt-8">
+                  <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-medium text-gray-900">Programming Languages</h4>
+                      <p className="text-gray-600">Python, C, C++, Java, R, HTML, CSS, JavaScript</p>
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-900">Frameworks & Tools</h4>
+                      <p className="text-gray-600">Flask, Jupyter, MySQL, MongoDB, Azure, Git, GitHub</p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-medium text-gray-900">Frameworks & Tools</h4>
-                  <p className="text-gray-600">Flask, Jupyter, MySQL, MongoDB, Azure, Git, GitHub</p>
-                </div>
-              </div>
-            </div>
 
-            {/* Experience Section */}
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-4">Experience</h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-indigo-600 pl-4">
-                  <p className="font-semibold text-gray-900">Machine Learning Developer Extern</p>
-                  <p className="text-gray-600">SmartBridge Educational Services Pvt. Ltd.</p>
-                  <p className="text-gray-500">Aug 2023- Nov 2023</p>
+                {/* Experience Section */}
+                <div className="mt-8">
+                  <h3 className="text-xl font-semibold mb-4">Experience</h3>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-indigo-600 pl-4">
+                      <p className="font-semibold text-gray-900">Machine Learning Developer Extern</p>
+                      <p className="text-gray-600">SmartBridge Educational Services Pvt. Ltd.</p>
+                      <p className="text-gray-500">Aug 2023- Nov 2023</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
-          </motion.div>
-              </div>
-            </div>
+          </div>
         </motion.section>
-
-         <Hero />
+        <Hero />
         
         {/* Research Interests Section */}
         <motion.section
