@@ -42,7 +42,7 @@ function App() {
                     <div className="border-l-4 border-indigo-600 pl-4">
                       <p className="font-semibold text-gray-900">Vellore Institute of Technology Bhopal</p>
                       <p className="text-gray-600">B.Tech in Computer Science and Engineering</p>
-                      <p className="text-gray-500">CGPA: 8.76 | Expected June 2025</p>
+                      <p className="text-gray-500">CGPA: 8.76 | 2021-2025</p>
                     </div>
                     <div className="border-l-4 border-indigo-600 pl-4">
                       <p className="font-semibold text-gray-900">Samarth Jr. College Karjat</p>
