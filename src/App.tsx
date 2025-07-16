@@ -69,7 +69,7 @@ function App() {
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <h4 className="font-medium text-gray-900">Programming Languages</h4>
-                      <p className="text-gray-600">Python, C, C++, Java, R, HTML, CSS, JavaScript</p>
+                      <p className="text-gray-600">Java, Python, C, C++, R, HTML, CSS, JavaScript</p>
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-900">Frameworks & Tools</h4>
