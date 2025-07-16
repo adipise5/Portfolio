@@ -27,7 +27,7 @@ function App() {
               >
                 <h2 className="text-3xl font-bold mb-6">About Me</h2>
                 <p className="text-gray-600">
-                  I am Aditya Ashok Pise, a passionate Computer Science and Engineering student. My journey in technology is driven by a deep interest in Machine Learning, Data Science, and innovative problem-solving. My technical expertise spans multiple programming languages and frameworks, enabling me to develop robust solutions for complex challenges.
+                  Passionate Computer Science graduate with strong foundation in AI/ML, software engineering, and full-stack development. Experienced in building intelligent systems using deep learning, data-driven pipelines, and scalable web applications. Actively seeking SDE/ML roles to contribute technical expertise and innovative problem-solving.
                 </p>
 
                 {/* Education Section */}
